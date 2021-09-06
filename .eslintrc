@@ -1,0 +1,24 @@
+
+{  
+    "extends": "eslint-config-zemoso",  
+    "parser": "babel-eslint",  
+    "plugins": [
+      "react-hooks"
+    ],
+    "env": 
+      {    
+        "node": true,    
+        "es6": true,    
+        "browser": true  
+      },  
+    "rules": 
+      {    
+        "implicit-arrow-linebreak": "off",    
+        "comma-dangle": "off",   
+        "semi":"off",
+        "indent": "off",    
+        "no-trailing-spaces": "off",
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn"
+      }
+  }
